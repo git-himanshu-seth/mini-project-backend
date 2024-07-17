@@ -4,10 +4,9 @@
   "description": "salon booking app ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "set NODE_ENV=dev&& set PORT=8080&& nodemon index.js"
   },
-  "author": "Himanshu and dipti",
+  "author": "Himanshu",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
