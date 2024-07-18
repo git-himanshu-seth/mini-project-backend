@@ -4,7 +4,8 @@
   "description": "salon booking app ",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=dev&& set PORT=8080&& nodemon index.js"
+    "dev": "set NODE_ENV=dev&& set PORT=8080&& nodemon index.js",
+    "start": "set NODE_ENV=dev&& set PORT=8080&& index.js"
   },
   "author": "Himanshu",
   "license": "ISC",
