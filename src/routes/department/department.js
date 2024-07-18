@@ -12,10 +12,10 @@ const departmetApp = express.Router();
 
 departmetApp.use(userManagerAuthMiddleWare);
 
-departmetApp.route("department").get(getDepartments).post(createDepartment);
+departmetApp.route("/department").get(getDepartments).post(createDepartment);
 
 departmetApp
-  .route("department/:id")
+  .route("/department/:id")
   .get(getDepartmentById)
   .post(updateDepartment)
   .delete(deleteDepartment);
